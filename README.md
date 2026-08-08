@@ -2,12 +2,12 @@
 
 This is the official repository for **EcoWeather**, a portable open-source weather station designed for precise environmental and atmospheric monitoring. 
 
-> ⚠️ **Status: Prototype (v0.1)**
+> **Status: Prototype (v0.1)**
 > This is the initial alpha hardware revision (August 2026). It is currently undergoing testing and validation. Use at your own risk.
 
 ---
 
-## 📜 Licensing & Trademark Protection
+## Licensing & Trademark Protection
 
 This project is fully open-source, but it uses a **Strong Copyleft + Trademark Protection** model to prevent proprietary exploitation and unauthorized commercial cloning under the original brand name.
 
@@ -20,7 +20,7 @@ The hardware design (schematics, PCB layouts, BOM, and production files) is lice
 The source code for the microcontroller firmware is licensed under the **GNU GPL v3** ([GNU GPLv3](https://gnu.org)).
 * Any derivative firmware or commercial products shipping with this software must also be fully open-source under the GPLv3.
 
-### 3. 🛑 Trademark & Brand Protection
+### 3. Trademark & Brand Protection
 * **"EcoWeather"** and the project logos are the exclusive trademarks of **Tenri** (Copyright © 2026).
 * **All rights to brand/logo reserved.**
 * You **may NOT** manufacture and sell commercial clones of this hardware using the name "EcoWeather" or the original logos without explicit written permission from Tenri. 
@@ -28,23 +28,23 @@ The source code for the microcontroller firmware is licensed under the **GNU GPL
 
 ---
 
-## 🛠 Hardware Specifications (v0.1)
+## Hardware Specifications (v0.1)
 
 * **Designer:** Tenri
 * **Release Date:** August 2026
 * **Revision:** Proto v0.1
 
-### 📊 Sensor Array:
-* 🌡️ **Pressure, Temperature & Humidity:** `Bosch BME280` (I2C)
-* ☀️ **UVA / UVB Light Intensity:** `Vishay VEML6075` (I2C)
-* 🌡️ **Non-Contact Infrared Temperature:** `Melexis MLX90614 (GY-906)` (I2C)
-* 💡 **Ambient Light / Lux Sensor:** `Texas Instruments OPT3007` (I2C)
-* 💨 **Particulate Matter (PM1.0, PM2.5, PM4.0, PM10):** `Sensirion SPS30` (UART/I2C optical particle counter)
+### Sensor Array:
+* **Pressure, Temperature & Humidity:** `Bosch BME280` (I2C)
+* **UVA / UVB Light Intensity:** `Vishay VEML6075` (I2C)
+* **Non-Contact Infrared Temperature:** `Melexis MLX90614 (GY-906)` (I2C)
+* **Ambient Light / Lux Sensor:** `Texas Instruments OPT3007` (I2C)
+* **Particulate Matter (PM1.0, PM2.5, PM4.0, PM10):** `Sensirion SPS30` (UART/I2C optical particle counter)
 
-### 📺 UI / Display:
+### UI / Display:
 * **Display:** 1.8" TFT LCD Display with `ST7735` driver (SPI)
 
-### 🔋 Power Management System (PMS):
+### Power Management System (PMS):
 * **Battery Configuration:** 1S2P Li-ion (using 2x Panasonic `NCR18650B` cells, 3.7V)
 * **Battery Charger & Power Path:** `Microchip MCP73871` (System power prioritisation)
 * **Battery Protection IC:** `TI BQ29700DSER` + `NexFET CSD16406Q3` dual N-channel MOSFET for overvoltage/undervoltage protection
@@ -53,7 +53,7 @@ The source code for the microcontroller firmware is licensed under the **GNU GPL
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Hardware Production
 To manufacture this board, use the Gerber files located in the `/hardware/production/` directory. 
@@ -66,6 +66,6 @@ To manufacture this board, use the Gerber files located in the `/hardware/produc
 
 ---
 
-## 📬 Contact & Contribution
+## Contact & Contribution
 
 If you want to contribute to the project, report bugs, or discuss commercial licensing options for the **EcoWeather** brand, please open an Issue or contact **Tenri** directly via GitHub.
