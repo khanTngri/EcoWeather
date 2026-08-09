@@ -1,4 +1,4 @@
-# EcoWeather — Open Source Portable Weather Station
+# EcoWeatherX — Open Source Portable Weather Station
 
 This is the official repository for **EcoWeather**, a portable open-source weather station designed for precise environmental and atmospheric monitoring. 
 
@@ -21,7 +21,7 @@ The source code for the microcontroller firmware is licensed under the **GNU GPL
 * Any derivative firmware or commercial products shipping with this software must also be fully open-source under the GPLv3.
 
 ### 3. Trademark & Brand Protection
-* **"EcoWeather"** and the project logos are the exclusive trademarks of **Tenri** (Copyright © 2026).
+* **"EcoWeatherX"** and the project logos are the exclusive trademarks of **Tenri** (Copyright © 2026).
 * **All rights to brand/logo reserved.**
 * You **may NOT** manufacture and sell commercial clones of this hardware using the name "EcoWeather" or the original logos without explicit written permission from Tenri. 
 * Commercial forks must be completely rebranded (e.g., sold as *"Weather Station based on EcoWeather open source files"* but not as *EcoWeather* itself).
