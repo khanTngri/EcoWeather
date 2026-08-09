@@ -23,8 +23,8 @@ The source code for the microcontroller firmware is licensed under the **GNU GPL
 ### 3. Trademark & Brand Protection
 * **"EcoWeatherX"** and the project logos are the exclusive trademarks of **Tenri** (Copyright © 2026).
 * **All rights to brand/logo reserved.**
-* You **may NOT** manufacture and sell commercial clones of this hardware using the name "EcoWeather" or the original logos without explicit written permission from Tenri. 
-* Commercial forks must be completely rebranded (e.g., sold as *"Weather Station based on EcoWeather open source files"* but not as *EcoWeather* itself).
+* You **may NOT** manufacture and sell commercial clones of this hardware using the name "EcoWeatherX" or the original logos without explicit written permission from Tenri. 
+* Commercial forks must be completely rebranded (e.g., sold as *"Weather Station based on EcoWeatherX open source files"* but not as *EcoWeatherX* itself).
 
 ---
 
